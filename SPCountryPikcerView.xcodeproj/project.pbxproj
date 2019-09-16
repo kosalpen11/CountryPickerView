@@ -19,7 +19,7 @@
 		442DF29A232F420F0017AE84 /* SJPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF296232F420F0017AE84 /* SJPickerView.swift */; };
 		442DF29B232F420F0017AE84 /* SPCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF297232F420F0017AE84 /* SPCountryCode.swift */; };
 		442DF29C232F420F0017AE84 /* SPCountryPikcerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */; };
-		442DF29D232F420F0017AE84 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 442DF299232F420F0017AE84 /* countryCodes.json */; };
+		442DF2A0232F94DD0017AE84 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 442DF29F232F94DD0017AE84 /* countryCodes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		442DF296232F420F0017AE84 /* SJPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJPickerView.swift; sourceTree = "<group>"; };
 		442DF297232F420F0017AE84 /* SPCountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCountryCode.swift; sourceTree = "<group>"; };
 		442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCountryPikcerView.swift; sourceTree = "<group>"; };
-		442DF299232F420F0017AE84 /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
+		442DF29F232F94DD0017AE84 /* countryCodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +105,13 @@
 		441C163D232E302D00B79766 /* SPCountryPikcerView */ = {
 			isa = PBXGroup;
 			children = (
-				442DF299232F420F0017AE84 /* countryCodes.json */,
 				442DF296232F420F0017AE84 /* SJPickerView.swift */,
 				442DF297232F420F0017AE84 /* SPCountryCode.swift */,
 				442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */,
 				441C163E232E302D00B79766 /* SPCountryPikcerView.h */,
 				441C163F232E302D00B79766 /* Info.plist */,
 				441C1679232E392200B79766 /* CountryPickerView.swift */,
+				442DF29F232F94DD0017AE84 /* countryCodes.json */,
 			);
 			path = SPCountryPikcerView;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442DF29D232F420F0017AE84 /* countryCodes.json in Resources */,
+				442DF2A0232F94DD0017AE84 /* countryCodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

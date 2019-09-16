@@ -3,7 +3,7 @@
 // RedTaxi
 //
 // Created by kosal pen on 9/8/19.
-// Copyright © 2019 Komsann Ly. All rights reserved.
+// Copyright © 2019 kosal pen. All rights reserved.
 //
 
 import UIKit
