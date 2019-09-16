@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objcMembers class SPPickerView: UIPickerView {
+@objcMembers open class SPPickerView: UIPickerView {
     
     let model: SJPickerViewData
     
@@ -68,7 +68,7 @@ import UIKit
         textField.resignFirstResponder()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         self.model = SJPickerViewData([], selectionHandler: nil)
         super.init(coder: aDecoder)
         fatalError("init(coder:) has not been implemented")

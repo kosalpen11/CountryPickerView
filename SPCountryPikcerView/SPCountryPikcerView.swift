@@ -1,21 +1,20 @@
 //
-//  SPCountryPikcerView.swift
-//  RedTaxi
+// SPCountryPikcerView.swift
+// RedTaxi
 //
-//  Created by kosal pen on 9/8/19.
-//  Copyright © 2019 Komsann Ly. All rights reserved.
+// Created by kosal pen on 9/8/19.
+// Copyright © 2019 Komsann Ly. All rights reserved.
 //
 
 import UIKit
 
-@objcMembers class SPCountryPikcerView: SPPickerView {
+@objcMembers public class SPCountryPikcerView: SPPickerView {
     
     let country = SPCountry.getAllCountries()
     
-    override init(on target: UITextField,
-                  titles: [String],
-                  selectionHandler: ((_ title: String) -> Void)? = nil) {
-
+    public init(on target: UITextField,
+                selectionHandler: ((_ title: String) -> Void)? = nil) {
+        
         let countryList = SPCountry.getAllCountries().map { (country) -> String in
             return "(\(country.phoneCode)) \(country.name) "
         }
@@ -24,7 +23,7 @@ import UIKit
                    titles: countryList,
                    selectionHandler: selectionHandler)
         
-        let countryCode =  country.map { (country) -> String in
+        let countryCode = country.map { (country) -> String in
             return "\(country.code)"
         }
         
@@ -37,7 +36,7 @@ import UIKit
                 if let index = countryCode.firstIndex(of: regionCode) {
                     self.textField.text = phoneCode[index]
                 }
-            }  else {
+            } else {
                 if let index = countryCode.firstIndex(of: "KH") {
                     self.textField.text = phoneCode[index]
                 }
