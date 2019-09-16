@@ -15,6 +15,7 @@
 		441C1661232E30DD00B79766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C165F232E30DD00B79766 /* Main.storyboard */; };
 		441C1663232E30DE00B79766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441C1662232E30DE00B79766 /* Assets.xcassets */; };
 		441C1666232E30DE00B79766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C1664232E30DE00B79766 /* LaunchScreen.storyboard */; };
+		441C167A232E392200B79766 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C1679232E392200B79766 /* CountryPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		441C1667232E30DE00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441C1670232E30DE00B79766 /* SPCountryPikcerViewExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCountryPikcerViewExamplesTests.swift; sourceTree = "<group>"; };
 		441C1672232E30DE00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441C1679232E392200B79766 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				441C163E232E302D00B79766 /* SPCountryPikcerView.h */,
 				441C163F232E302D00B79766 /* Info.plist */,
+				441C1679232E392200B79766 /* CountryPickerView.swift */,
 			);
 			path = SPCountryPikcerView;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				TargetAttributes = {
 					441C163A232E302D00B79766 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					441C1643232E302D00B79766 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -272,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441C167A232E392200B79766 /* CountryPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +452,7 @@
 		441C1650232E302D00B79766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -463,6 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +478,7 @@
 		441C1651232E302D00B79766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -495,6 +503,7 @@
 		441C1653232E302D00B79766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPCountryPikcerViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +521,7 @@
 		441C1654232E302D00B79766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPCountryPikcerViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,7 +540,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SPCountryPikcerViewExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -547,7 +559,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SPCountryPikcerViewExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
