@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SPCountryPikcerView"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "A CocoaPods library written in Swift"
   s.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
