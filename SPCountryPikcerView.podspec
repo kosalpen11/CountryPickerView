@@ -25,6 +25,6 @@ This CocoaPods library helps you perform calculation.
 
   spec.source        = { :git => "https://github.com/kosalpen11/CountryPickerView.git", :tag => "#{spec.version}" }
   spec.source_files  = "SPCountryPikcerView/**/*.{h,m,swift,json}"
-  spec.resource_bundles = "SPCountryPikcerView"
+  spec.resource_bundles = "SPCountryPikcerView/**/*"
 
 end
