@@ -6,7 +6,8 @@ CountryPickerView is available through Cocoapods.
 
 # CocoaPods:
 
-Add the following line to your Podfile: 
+Add the following line to your Podfile:
+
 pod SPCountryPikcerView ~> '0.0.5'
 
 # support
