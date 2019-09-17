@@ -19,7 +19,7 @@ This CocoaPods library helps you perform calculation.
   spec.homepage     = "https://github.com/kosalpen11/CountryPickerView"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "kosalpen11" => "kosalpen11@gmail.com" }	
-  spec.resources = ["SPCountryPikcerView*.{json}"]
+  spec.resources = ["SPCountryPikcerView/**/*.{json}"]
 
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
