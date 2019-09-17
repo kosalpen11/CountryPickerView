@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SPCountryPikcerView"
-  spec.version      = "0.0.14"
+  spec.version      = "0.0.15"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
