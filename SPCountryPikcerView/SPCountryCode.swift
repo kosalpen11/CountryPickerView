@@ -271,20 +271,15 @@ public struct SPCountry {
         if let code = Locale.preferredLanguages.first {
             selectedLocale = Locale(identifier: code)
         }
-        
-        let bundle: Bundle = Bundle.init(identifier: "com.kosalpen.pickerView.SPCountryPikcerView")!
+    
         let resource: String = "countryCodes"
-        let jsonPath = bundle.path(forResource: resource, ofType: "json")
-        
-        
+        let frameworkBundle = Bundle(for: SPCountryPikcerView.self)
+        let jsonPath = frameworkBundle.url(forResource: resource, withExtension: "json")
         assert(jsonPath != nil, "Resource file is not found in the Bundle")
-        
-        let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath!))
-        
+        let jsonData = try? Data(contentsOf: jsonPath!.absoluteURL)
         assert(jsonPath != nil, "Resource file is not found")
         
         var countries = [SPCountry]()
-        
         do {
             if let jsonObjects = try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions.allowFragments) as? NSArray {
                 
@@ -296,13 +291,11 @@ public struct SPCountry {
                         let country = SPCountry(code: code,
                                                 name: locale.localizedString(forRegionCode: code) ?? name,
                                                 phoneCode: phoneCode)
-                        
                         countries.append(country)
                     } else {
                         let country = SPCountry(code: code,
                                                 name: name,
                                                 phoneCode: phoneCode)
-                        
                         countries.append(country)
                     }
                 }
