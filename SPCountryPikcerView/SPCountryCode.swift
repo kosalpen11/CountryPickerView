@@ -272,9 +272,10 @@ public struct SPCountry {
             selectedLocale = Locale(identifier: code)
         }
         
-        let bundle: Bundle = Bundle.main
+        let bundle: Bundle = Bundle.init(identifier: "com.kosalpen.pickerView.SPCountryPikcerView")!
         let resource: String = "countryCodes"
         let jsonPath = bundle.path(forResource: resource, ofType: "json")
+        
         
         assert(jsonPath != nil, "Resource file is not found in the Bundle")
         

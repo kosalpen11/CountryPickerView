@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SPCountryPikcerView"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -24,6 +24,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/kosalpen11/CountryPickerView.git", :tag => "#{spec.version}" }
-  spec.source_files  = "SPCountryPikcerView/**/*.{h,m,swift}"
+  spec.source_files  = "SPCountryPikcerView/**/*.{h,m,swift,json}"
 
 end
