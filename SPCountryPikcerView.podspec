@@ -23,8 +23,8 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
+  spec.resource_bundles = { 'SPCountryPikcerView' => ['SPCountryPikcerView/**/*']}
   spec.source        = { :git => "https://github.com/kosalpen11/CountryPickerView.git", :tag => "#{spec.version}" }
   spec.source_files  = "SPCountryPikcerView/**/*.{h,m,swift,json}"
-  spec.resource_bundles = { 'SPCountryPikcerView' => ['SPCountryPikcerView/**/*.{h,m,swift,json}']}
-
+  
 end
