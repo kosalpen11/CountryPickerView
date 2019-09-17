@@ -20,7 +20,6 @@
 		442DF2B1232F9DB80017AE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C165D232E30DD00B79766 /* ViewController.swift */; };
 		442DF2B8232F9EF80017AE84 /* SPCountryPikcerViewTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 441C1644232E302D00B79766 /* SPCountryPikcerViewTests.xctest */; };
 		442DF2C3232FAE1A0017AE84 /* codes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442DF2C2232FAE1A0017AE84 /* codes.plist */; };
-		44CCA2412330C12900043F19 /* SPCountryPikcerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C163B232E302D00B79766 /* SPCountryPikcerView.framework */; };
 		9BAF06EA52D191564D787918 /* Pods_SPCountryPikcerViewExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88407F497803A30DD1A6DACA /* Pods_SPCountryPikcerViewExamples.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CCA2412330C12900043F19 /* SPCountryPikcerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
