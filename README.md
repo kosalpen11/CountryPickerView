@@ -1,9 +1,12 @@
 # CountryPickerView
 Country Picker View
 
-Installation
+# Installation
+
 CountryPickerView is available through Cocoapods.
 
-CocoaPods:
+# CocoaPods:
+
 Add the following line to your Podfile:
-pod SPCountryPikcerView ~> '0.0.3'
+
+# pod SPCountryPikcerView ~> '0.0.3'

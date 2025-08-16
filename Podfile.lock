@@ -1,0 +1,16 @@
+PODS:
+  - SPCountryPikcerView (0.0.12)
+
+DEPENDENCIES:
+  - SPCountryPikcerView (from `.`)
+
+EXTERNAL SOURCES:
+  SPCountryPikcerView:
+    :path: "."
+
+SPEC CHECKSUMS:
+  SPCountryPikcerView: 40681fbe23239d45470b7c69a80615885d8cdd9a
+
+PODFILE CHECKSUM: 721be14dd5225b99b5d080c02eb7bc9181abda0d
+
+COCOAPODS: 1.7.5

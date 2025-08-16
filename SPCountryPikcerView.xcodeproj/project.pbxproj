@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		441C1645232E302D00B79766 /* SPCountryPikcerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C163B232E302D00B79766 /* SPCountryPikcerView.framework */; };
-		441C164A232E302D00B79766 /* SPCountryPikcerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C1649232E302D00B79766 /* SPCountryPikcerViewTests.swift */; };
 		441C164C232E302D00B79766 /* SPCountryPikcerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C163E232E302D00B79766 /* SPCountryPikcerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441C165C232E30DD00B79766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C165B232E30DD00B79766 /* AppDelegate.swift */; };
-		441C165E232E30DD00B79766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C165D232E30DD00B79766 /* ViewController.swift */; };
 		441C1661232E30DD00B79766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C165F232E30DD00B79766 /* Main.storyboard */; };
 		441C1663232E30DE00B79766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441C1662232E30DE00B79766 /* Assets.xcassets */; };
 		441C1666232E30DE00B79766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C1664232E30DE00B79766 /* LaunchScreen.storyboard */; };
+		442DF29A232F420F0017AE84 /* SJPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF296232F420F0017AE84 /* SJPickerView.swift */; };
+		442DF29B232F420F0017AE84 /* SPCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF297232F420F0017AE84 /* SPCountryCode.swift */; };
+		442DF29C232F420F0017AE84 /* SPCountryPikcerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */; };
+		442DF2A0232F94DD0017AE84 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 442DF29F232F94DD0017AE84 /* countryCodes.json */; };
+		442DF2B0232F9D320017AE84 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DF2AF232F9D320017AE84 /* CountryPickerView.swift */; };
+		442DF2B1232F9DB80017AE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C165D232E30DD00B79766 /* ViewController.swift */; };
+		442DF2B8232F9EF80017AE84 /* SPCountryPikcerViewTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 441C1644232E302D00B79766 /* SPCountryPikcerViewTests.xctest */; };
+		9BAF06EA52D191564D787918 /* Pods_SPCountryPikcerViewExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88407F497803A30DD1A6DACA /* Pods_SPCountryPikcerViewExamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27F7AD0AF32194979A786416 /* Pods-SPCountryPikcerViewExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPCountryPikcerViewExamples.release.xcconfig"; path = "Target Support Files/Pods-SPCountryPikcerViewExamples/Pods-SPCountryPikcerViewExamples.release.xcconfig"; sourceTree = "<group>"; };
+		2CC490F9E891D4CBD84E2A32 /* Pods-SPCountryPikcerViewExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPCountryPikcerViewExamples.debug.xcconfig"; path = "Target Support Files/Pods-SPCountryPikcerViewExamples/Pods-SPCountryPikcerViewExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		441C163B232E302D00B79766 /* SPCountryPikcerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPCountryPikcerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		441C163E232E302D00B79766 /* SPCountryPikcerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPCountryPikcerView.h; sourceTree = "<group>"; };
 		441C163F232E302D00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441C1644232E302D00B79766 /* SPCountryPikcerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPCountryPikcerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		441C1649232E302D00B79766 /* SPCountryPikcerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCountryPikcerViewTests.swift; sourceTree = "<group>"; };
-		441C164B232E302D00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441C1659232E30DC00B79766 /* SPCountryPikcerViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPCountryPikcerViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441C165B232E30DD00B79766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441C165D232E30DD00B79766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +48,12 @@
 		441C1667232E30DE00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441C1670232E30DE00B79766 /* SPCountryPikcerViewExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCountryPikcerViewExamplesTests.swift; sourceTree = "<group>"; };
 		441C1672232E30DE00B79766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442DF296232F420F0017AE84 /* SJPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJPickerView.swift; sourceTree = "<group>"; };
+		442DF297232F420F0017AE84 /* SPCountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCountryCode.swift; sourceTree = "<group>"; };
+		442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCountryPikcerView.swift; sourceTree = "<group>"; };
+		442DF29F232F94DD0017AE84 /* countryCodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
+		442DF2AF232F9D320017AE84 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		88407F497803A30DD1A6DACA /* Pods_SPCountryPikcerViewExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPCountryPikcerViewExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441C1645232E302D00B79766 /* SPCountryPikcerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAF06EA52D191564D787918 /* Pods_SPCountryPikcerViewExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				441C163D232E302D00B79766 /* SPCountryPikcerView */,
-				441C1648232E302D00B79766 /* SPCountryPikcerViewTests */,
 				441C165A232E30DD00B79766 /* SPCountryPikcerViewExamples */,
 				441C166F232E30DE00B79766 /* SPCountryPikcerViewExamplesTests */,
 				441C163C232E302D00B79766 /* Products */,
+				D9C609BD9894F6B524B4A0C8 /* Pods */,
+				FB2C2C6F58118C487A59A182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,19 +107,15 @@
 		441C163D232E302D00B79766 /* SPCountryPikcerView */ = {
 			isa = PBXGroup;
 			children = (
+				442DF296232F420F0017AE84 /* SJPickerView.swift */,
+				442DF297232F420F0017AE84 /* SPCountryCode.swift */,
+				442DF298232F420F0017AE84 /* SPCountryPikcerView.swift */,
 				441C163E232E302D00B79766 /* SPCountryPikcerView.h */,
 				441C163F232E302D00B79766 /* Info.plist */,
+				442DF29F232F94DD0017AE84 /* countryCodes.json */,
+				442DF2AF232F9D320017AE84 /* CountryPickerView.swift */,
 			);
 			path = SPCountryPikcerView;
-			sourceTree = "<group>";
-		};
-		441C1648232E302D00B79766 /* SPCountryPikcerViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				441C1649232E302D00B79766 /* SPCountryPikcerViewTests.swift */,
-				441C164B232E302D00B79766 /* Info.plist */,
-			);
-			path = SPCountryPikcerViewTests;
 			sourceTree = "<group>";
 		};
 		441C165A232E30DD00B79766 /* SPCountryPikcerViewExamples */ = {
@@ -130,6 +138,23 @@
 				441C1672232E30DE00B79766 /* Info.plist */,
 			);
 			path = SPCountryPikcerViewExamplesTests;
+			sourceTree = "<group>";
+		};
+		D9C609BD9894F6B524B4A0C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CC490F9E891D4CBD84E2A32 /* Pods-SPCountryPikcerViewExamples.debug.xcconfig */,
+				27F7AD0AF32194979A786416 /* Pods-SPCountryPikcerViewExamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB2C2C6F58118C487A59A182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88407F497803A30DD1A6DACA /* Pods_SPCountryPikcerViewExamples.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441C1673232E30DE00B79766 /* Build configuration list for PBXNativeTarget "SPCountryPikcerViewExamples" */;
 			buildPhases = (
+				C787D7FD464D54D6AC9EA1C6 /* [CP] Check Pods Manifest.lock */,
 				441C1655232E30DC00B79766 /* Sources */,
 				441C1656232E30DC00B79766 /* Frameworks */,
 				441C1657232E30DC00B79766 /* Resources */,
+				5776B6A5C8F0E98246A480C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +238,7 @@
 				TargetAttributes = {
 					441C163A232E302D00B79766 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					441C1643232E302D00B79766 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -245,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442DF2A0232F94DD0017AE84 /* countryCodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442DF2B8232F9EF80017AE84 /* SPCountryPikcerViewTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,11 +297,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5776B6A5C8F0E98246A480C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPCountryPikcerViewExamples/Pods-SPCountryPikcerViewExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPCountryPikcerViewExamples/Pods-SPCountryPikcerViewExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPCountryPikcerViewExamples/Pods-SPCountryPikcerViewExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C787D7FD464D54D6AC9EA1C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPCountryPikcerViewExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		441C1637232E302D00B79766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442DF29C232F420F0017AE84 /* SPCountryPikcerView.swift in Sources */,
+				442DF29B232F420F0017AE84 /* SPCountryCode.swift in Sources */,
+				442DF29A232F420F0017AE84 /* SJPickerView.swift in Sources */,
+				442DF2B0232F9D320017AE84 /* CountryPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441C164A232E302D00B79766 /* SPCountryPikcerViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441C165E232E30DD00B79766 /* ViewController.swift in Sources */,
+				442DF2B1232F9DB80017AE84 /* ViewController.swift in Sources */,
 				441C165C232E30DD00B79766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +522,7 @@
 		441C1650232E302D00B79766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -463,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +548,7 @@
 		441C1651232E302D00B79766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -495,6 +573,7 @@
 		441C1653232E302D00B79766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPCountryPikcerViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +591,7 @@
 		441C1654232E302D00B79766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPCountryPikcerViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,9 +608,11 @@
 		};
 		441C1674232E30DE00B79766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC490F9E891D4CBD84E2A32 /* Pods-SPCountryPikcerViewExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SPCountryPikcerViewExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -545,9 +628,11 @@
 		};
 		441C1675232E30DE00B79766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F7AD0AF32194979A786416 /* Pods-SPCountryPikcerViewExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SPCountryPikcerViewExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,6 +640,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosalpen.pickerView.SPCountryPikcerViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

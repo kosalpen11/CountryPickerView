@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import SPCountryPikcerView
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var textfield: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let country = SPCountryPikcerView(on: textfield) { (titles) in
+            print(titles)
+        }
+        self.textfield.inputView = country
     }
-
-
 }
 
